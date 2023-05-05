@@ -35,3 +35,22 @@ path: path.resolve(**dirname, 'dist'),
 filename: 'bundle.js',
 },
 };
+
+(3) `npm i -D sass style-loader css-loader sass-loader`
+
+- When we do this, that `main.scss` file we make under `styles` folder of the `src` directory, can be imported AFTER we make the right revisions in the `webpack.config.js` file => loaders!!!
+
+(4) after loaders, we get into plugins
+
+- ` npm i -D html-webpack-plugin`
+
+(5) script in `package.json`
+`"dev": "webpack serve"` - this'll prompt for installing `webpack-dev-server`
+
+# notes to self
+
+1. Had to run `git config --global core.autocrlf false ` to do add and commits then push
+
+# resources
+
+`https://www.youtube.com/watch?v=IZGNcSuwBZs`
